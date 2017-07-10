@@ -3,7 +3,7 @@ import config
 import time
 
 reddit = praw.Reddit(user_agent="Rules bot by u/Zero-Kelvin",
-                    client_id="whVgeOLMD0W8TQ",
+                    client_id="",
                     client_secret=config.client_secret,
                     username=config.username,
                     password=config.password)
