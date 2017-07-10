@@ -17,7 +17,7 @@ phrases_to_match = ["what is rule 1?","what is rule 1","what is rule #1?","what 
 
 reply_comment="Rule 1: Be Attractive \n\n Rule 2: Be Unactrattive \n\n =============================================\n\n Bot by u/Zero-Kelvin."
 
-subreddit=reddit.subreddit("ZeroKelvin")
+subreddit=reddit.subreddit("tinder")
 cache=[]
 
 print(reddit.user.me())
