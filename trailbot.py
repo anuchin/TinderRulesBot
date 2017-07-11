@@ -15,7 +15,7 @@ phrases_to_match = ["what is rule 1?","what is rule 1","what is rule #1?","what 
                     "what are rules 1 and 2?","what are rules 1 and 2",
                     "what is rules 1 and 2?","what is rules 1 and 2?"]
 
-reply_comment="Rule 1: Be Attractive \n\n Rule 2: Be Unactrattive \n\n =============================================\n\n Bot by u/Zero-Kelvin."
+reply_comment="Rule 1: Be Attractive \n\n Rule 2: Don't be Unactrattive \n\n =============================================\n\n Bot by u/Zero-Kelvin."
 
 subreddit=reddit.subreddit("tinder")
 cache=[]
