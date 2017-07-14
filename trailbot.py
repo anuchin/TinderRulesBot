@@ -15,7 +15,7 @@ phrases_to_match = ["what is rule 1?","what is rule 1","what is rule #1?","what 
                     "what are rules 1 and 2?","what are rules 1 and 2",
                     "what is rules 1 and 2?","what is rules 1 and 2?"]
 
-reply_comment="Rule 1: Be Attractive \n\n Rule 2: Don't be Unattractive \n\n =============================================\n\n Bot by u/Zero-Kelvin."
+reply_comment="Rule 1: Be Attractive \n\n Rule 2: Don't be Unattractive \n\n =============================================\n\n Report an [issue](https://www.reddit.com/message/compose/?to=Zero-Kelvin&subject=Tinder%20Rules%20bot)"
 
 subreddit=reddit.subreddit("tinder")
 cache=[]
@@ -25,7 +25,7 @@ print(reddit.user.me())
 
 def reply_bot():
     print("entered the reply fucntion")
-    comments = subreddit.comments(limit=600)
+    comments = subreddit.comments(limit=200)
     print("fetched comments")
     print("Checking phrases")
     for comment in comments:
